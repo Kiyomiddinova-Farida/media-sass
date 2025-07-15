@@ -14,6 +14,13 @@ body {
   padding: 0;
 }
 
+.container {
+  max-width: 1510px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   background: url('../assets/header.png') center/cover no-repeat;
   color: $white;
@@ -27,7 +34,7 @@ body {
 
   &__top {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 30px 60px 0 60px;
 
@@ -155,7 +162,7 @@ main {
 
   &--featured {
     position: relative;
-    min-width: 400px;
+    min-width: 532px;
     max-width: 500px;
 
     img {
@@ -272,7 +279,7 @@ main {
   .footer__content {
     display: flex;
     margin: 0 auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 40px 0;
     .footer__logo {
